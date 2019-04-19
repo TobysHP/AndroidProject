@@ -77,6 +77,5 @@ public class User {
                 System.out.println("Problème critique !");
             }
         }
-
     }
 }
