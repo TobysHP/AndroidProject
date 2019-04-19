@@ -1,6 +1,6 @@
 package com.example.pierr.androidproject;
 
-public abstract class Unity implements Movable,Damageable, Healable{
+public abstract class Unity implements Movable,Damageable, Healable, Decorable{
     protected String name;
     protected int hpMax;
     protected int hpCurrent;

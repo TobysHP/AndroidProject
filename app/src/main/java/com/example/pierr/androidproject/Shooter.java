@@ -1,6 +1,6 @@
 package com.example.pierr.androidproject;
 
-public class Shooter extends Unity implements Decorable{
+public class Shooter extends Unity{
     Shooter(){
         name="Shooter";
         hpMax=100;

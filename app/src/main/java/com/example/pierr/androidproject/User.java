@@ -19,10 +19,7 @@ public class User {
         this.unitiesNames=unitiesNames;
         for(String unityName:this.unitiesNames){
             if(unityName.contains("Aircraft")){
-                if(unityName.contains("Healer")){
-                    this.unities.add(new Healer(new Aircraft()));
-                }
-                else if(unityName.contains("Damage")){
+                if(unityName.contains("Damage")){
                     this.unities.add(new Damage(new Aircraft()));
                 }
                 else if(unityName.contains("Speed")){
@@ -36,10 +33,7 @@ public class User {
                 }
             }
             else if(unityName.contains("Melee")){
-                if(unityName.contains("Healer")){
-                    this.unities.add(new Healer(new Melee()));
-                }
-                else if(unityName.contains("Damage")){
+                if(unityName.contains("Damage")){
                     this.unities.add(new Damage(new Melee()));
                 }
                 else if(unityName.contains("Speed")){
@@ -54,10 +48,7 @@ public class User {
 
             }
             else if(unityName.contains("Shooter")){
-                if(unityName.contains("Healer")){
-                    this.unities.add(new Healer(new Shooter()));
-                }
-                else if(unityName.contains("Damage")){
+                if(unityName.contains("Damage")){
                     this.unities.add(new Damage(new Shooter()));
                 }
                 else if(unityName.contains("Speed")){
